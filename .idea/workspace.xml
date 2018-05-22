@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b60007ef-4939-49bb-b8f0-09ff44588bb1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/financeapp.iml" afterPath="$PROJECT_DIR$/.idea/financeapp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="financeapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="financeapp.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="financeapp.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/financeapp.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
+            <state relative-caret-position="1369">
               <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="763">
+              <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -69,6 +92,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/financeapp/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/financeapp.scss" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -432,12 +457,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526982278820</updated>
-      <workItem from="1526982279974" duration="1335000" />
+      <workItem from="1526982279974" duration="1694000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1335000" />
+    <option name="totallyTimeSpent" value="1694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1871" height="1084" extended-state="6" />
@@ -520,8 +545,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/financeapp.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
+        <state relative-caret-position="1369">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
         </state>
       </provider>
