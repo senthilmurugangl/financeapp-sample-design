@@ -3,6 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.table_container {
+  display: table; }
+.cell {
+  display: table-cell;
+  border: 1px solid #809e9c;
+  padding: 10px 30px;
+  width: 258px;
+  background: #fff; }
+.gutter {
+  display: table-cell;
+  width: 30px; }
+
+
 body{
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
