@@ -3,20 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.table_container {
+/*.table_container {
   display: table; }
 .cell {
   display: table-cell;
   border: 1px solid #809e9c;
   padding: 10px 30px;
-  width: 258px;
+  width: 100%;
   background: #fff; }
 .gutter {
   display: table-cell;
-  width: 30px; }
+  width: 30px; }*/
 
 
-body{
+body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
@@ -24,20 +24,30 @@ body{
   margin: 0;
   padding: 0;
 }
-section{
+
+section {
   margin-bottom: 50px;
 }
 
-p{
-  padding:0px;
+p {
+  padding: 0px;
   margin: 0px;
 }
 
+.nav-up {
+  top: -60px;
+}
+
+header {
+  background: #f5b335;
+  height: 60px;
+  position: fixed;
+  top: 46px;
+  transition: top 0.5s ease-in-out;
+  width: 100%;
+}
+
 .row-flex {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
   display: flex;
   flex-wrap: wrap;
 }
@@ -49,74 +59,57 @@ p{
 }
 
 .colour-1 {
-
   background-color: #F1F1F2;
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -ms-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   color: #636a71;
 }
 
-.app-admin-header{
+.app-admin-header {
   background-color: #636a71;
   color: #ffffff;
   height: 46px;
   position: fixed;
   top: 0;
   width: 100%;
-}
-.app-header{
-  background-color: #22B479;
-  height: 60px;
-  margin-top: 46px;
-  width: 100%;
-}
-.app-header .logo{
-  font-size: 18px;
-  font-weight: 400;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.app-header .logo a{
-  color: #ffffff;
-  text-decoration: none;
-}
-.app-header .logo img{
-  height: 30px;
-  vertical-align: middle;
+  z-index: 1;
 }
 
-.banner{
+.banner {
   height: 400px;
   background-color: #333333;
+  margin-top: 106px;
 }
 
-.panel-header{}
-.panel-header .summary-title {
-  padding-top: 6rem;
-  margin: 0;
-  padding-bottom: 1rem;
+.panel-header {
+  .summary-title {
+    padding-top: 6rem;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(88, 88, 91);
+    font-family: 'Open Sans', sans-serif;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+  }
 }
-.panel-header h2 {
-  font-size: 25px;
-  font-weight: 300;
-  color: rgb(88,88,91);
-  font-family: 'Open Sans', sans-serif;
-  line-height: 31px;
-  margin: 0;
-  padding: 0;
-}
-.summary-panels{
+
+.summary-panels {
   margin: 1rem 0 7rem;
   padding: 2rem 0.5rem 2rem 0;
   background-color: #F1F1F2;
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -ms-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  -o-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   height: 415px;
 }
+
