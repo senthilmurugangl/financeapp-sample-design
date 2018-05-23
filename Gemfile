@@ -66,8 +66,6 @@ group :production do
   gem 'pg'
 end
 
-source 'https://rails-assets.org' do
   gem 'rails-assets-jquery'
   gem 'bootstrap3-rails'
   gem 'rails-assets-tether'
-end
