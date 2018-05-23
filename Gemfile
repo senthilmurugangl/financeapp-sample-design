@@ -36,6 +36,10 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+gem 'bootstrap3-rails'
+gem 'rails-assets-tether'
+gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -66,6 +70,4 @@ group :production do
   gem 'pg'
 end
 
-  gem 'rails-assets-jquery'
-  gem 'bootstrap3-rails'
-  gem 'rails-assets-tether'
+  # gem 'rails-assets-jquery'
