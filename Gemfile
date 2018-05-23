@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'bootstrap3-rails'
-gem 'rails-assets-tether'
+gem 'tether-rails'
 gem 'jquery-rails', '~> 4.0', '>= 4.0.5'
 
 group :development, :test do
